@@ -1,0 +1,34 @@
+How to create a database ?
+    Syntax 
+        CREATE DATABASE db_name;
+    ex--
+        CREATE DATABASE batch;
+
+How to use/select a database ?
+    Syntax 
+        USE db_name;
+    ex--
+        USE batch;        
+
+How to create Table ?
+    Syntax
+        CREATE TABLE table_name (
+            field1 dataType(length) constraints,
+            field1 dataType(length) constraints,
+            ..........
+            .........
+            fieldn dataType(length) constraints
+        );       
+
+    ex--
+        CREATE TABLE student (
+            name varchar(30),
+            email varchar(20),
+            rollno int
+        ); 
+
+How to display data from table ?
+    Syntax
+        SELECT * FROM table_name;
+    ex--
+        SELECT * FROM batch;              
